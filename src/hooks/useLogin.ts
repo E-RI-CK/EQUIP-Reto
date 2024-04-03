@@ -16,7 +16,7 @@ export const useLogin = () => {
         return () => {
             setLoadingPage(true);
         }
-    }, [accountEmail, loadingPage, router]);
+    }, [accountEmail]);
 
     return {
         getEmail,
